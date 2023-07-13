@@ -1,0 +1,89 @@
+
+  
+  .verticalnav {
+    min-width: 16rem;
+    width: 16rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    background-color: black;
+    margin-top: 0;
+    
+    
+  }
+  .logo{
+    height: 50px;
+    width: 200px;
+  }
+  .page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+  }
+  
+  #img-div{
+    width:98%;
+    max-width: 100%;
+    display: block;
+    height:auto;
+    margin:auto;
+    background:transparent;
+  }
+  #image img{
+    max-width:100%;
+    /* /this is the only way to make image responsive inside the flexbox/ */
+    margin:auto;
+    display: block;
+  }
+  #image{
+   
+    max-width: 99%;
+    height: auto;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+        
+  }
+  .lead a:hover{
+    text-decoration:none;
+  }
+  
+  
+  
+  #sidebar.active {
+    margin-left: -17rem;
+  }
+  
+  #content.active {
+    width: 100%;
+    margin: 0;
+  }
+  
+
+  
+
+  
+  
+
+.listOptions{
+    list-style-type: None;
+    margin: None;
+    padding-left: None;
+    
+    
+}
+
+.listOptions li{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.listOptions li:hover{
+    background-color: white;
+    color: black;
+}

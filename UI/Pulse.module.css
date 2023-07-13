@@ -1,0 +1,24 @@
+.pulse:hover, 
+.pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+  background-color: #886F6F;
+  border-color: white;
+  color: white;
+  outline: 0;
+
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 #886F6F; }
+}
+.pulse{
+  background-color: white;
+  color: black;
+  border: black solid 2px;
+  
+  outline: 2px solid black;
+  outline-offset: -7px;
+  border-radius: 0;
+}
+
