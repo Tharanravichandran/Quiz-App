@@ -1,0 +1,81 @@
+.container {
+    border: 3px solid #fff;
+    padding: 20px;
+    margin-left: 15%;
+
+}
+
+.child {
+    
+    width: 50%;
+    float: right;
+    height: 400px;
+    padding: 20px;
+    overflow-y: scroll;
+    
+    
+} 
+.graph{
+    display: inline;
+}
+.graph .welcome{
+    display: inline-block;
+    width: 45%;
+
+
+} 
+.back img{
+    height:200px;
+    margin: 20px;
+    padding-left: 10px ;
+}
+.childG{
+    z-index: 10;
+    width: 40%;
+}
+
+.welcome p{
+    padding: 40px;
+}
+
+.welcome{
+    margin-left: 40px;
+}
+.welcome img{
+    height:200px;
+    margin: 20px;
+}
+.childGraph {
+    
+    width: 40%;
+    padding: 20px;
+    align-items: center;
+    
+}  
+.browseBox{
+    
+    
+    padding: 20px;
+
+    
+}
+
+/* .back{
+    padding-left: 10px;
+} */
+
+.profilebut{
+    background-color: #7978FF;
+    display: inline;
+    /* margin-left: 100px; */
+    float: right;
+    height: 100px;
+    /* width: 100px; */
+
+}
+.profilebut p{
+    background-color: #7978FF;
+    display: inline;
+    /* fon; */
+
+}

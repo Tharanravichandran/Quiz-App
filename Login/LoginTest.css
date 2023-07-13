@@ -1,0 +1,48 @@
+.loginBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    max-width: 1000px;
+    background-color: rgb(248, 210, 116);
+    box-shadow: 0 0 40px rgba(0,0,0,0.16);
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 12px;
+  }
+  .loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #d9edff;
+  }
+
+  .userInfo input{
+    margin: 15px;
+    padding: 10px 20px;
+    display: block;
+    width: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border-width: 0px;
+  }
+
+button{
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: rgb(120, 131, 114);
+  border-radius: 5px;
+  border-width: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+.picture{
+  display: flex;
+  align-items: flex-start;
+  max-width: 800px;
+  min-height: 100%;
+  background-color: #fffdf2;
+  margin: 20px;
+  height: 300px;
+}

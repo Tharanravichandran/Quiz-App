@@ -1,0 +1,114 @@
+.cover {
+    font-family: 'Anek Malayalam', sans-serif;
+    background: linear-gradient(90.04deg, #4649FF 0.03%, #7978FF 99.96%);
+    color: #11052c;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0 30px;
+    height: 100vh;
+    width: 100%;
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
+  }
+  
+  .quizContainer {
+    max-width: 500px;
+    min-width: 250px;
+    height: 60%;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-top: 100px;
+    padding: 30px 60px;
+  }
+  
+  .quizContainer .activeQuestionNo {
+    font-size: 32px;
+    font-weight: 500;
+    color: #7978FF;
+  }
+  
+  .quizContainer .totalQuestion {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7978FF;
+  }
+  
+  .quizContainer h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+  }
+  h2{
+    color:#11052c
+  }
+  
+  .quizContainer ul {
+    margin-top: 20px;
+    margin-left: -40px;
+  }
+  
+  .quizContainer ul li {
+    text-decoration: none;
+    list-style: none;
+    color: #2d264b;
+    font-size: 16px;
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 16px;
+    padding: 11px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .quizContainer ul .selectedAnswer {
+    background: #F2F2F2;
+    border: 1px solid #7978FF;
+  }
+  
+  .quizContainer button {
+    background: linear-gradient(90.04deg, #7978FF 0.03%, #4649FF 99.96%);
+    border-radius: 9px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 10px 42px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .quizContainer button:disabled {
+    background: #e7e8e9;
+    color: #9fa3a9;
+    cursor: not-allowed;
+  }
+  
+  .flexRight {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .result h3 {
+    display: flex;
+    font-size: 24px;
+    letter-spacing: 1.4px;
+    text-align: center;
+  }
+  
+  .result p {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .result p span {
+    display: flex;
+    color: #800080;
+    font-size: 22px;
+  }
+
+  .result{
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 200px 75px 200px;  }

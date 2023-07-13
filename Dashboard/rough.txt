@@ -1,0 +1,88 @@
+      <div className="container">
+        <h1>User Progress </h1>
+        <h1>SUBJECT - Neural Networks</h1>
+        <h3>MENTOR NAME- MR.Krishna</h3>
+        <a href="#" className={styles["back-button"]}>
+          Back
+        </a>
+
+        <h2>Overall progress</h2>
+        <div className="progress-bar">
+          <div className={styles["progress-fill"]} style="width: 30%;"></div>
+        </div>
+        <div className={styles["progress-percentage"]}>30%</div>
+
+        <h2 className={styles["accuracy-heading"]}>
+          Accuracy of completed quizzes
+        </h2>
+        <div className={styles["quiz-item"]}>
+          <div className="quiz-name">Quiz 1</div>
+          <div className="quiz-accuracy">80%</div>
+        </div>
+        <div className={styles["quiz-item"]}>
+          <div className={styles["quiz-name"]}>Quiz 2</div>
+          <div className={styles["quiz-accuracy"]}>90%</div>
+        </div>
+        <div className={styles["quiz-item"]}>
+          <div className={styles["quiz-name"]}>Quiz 3</div>
+          <div className={styles["quiz-accuracy"]}>75%</div>
+        </div>
+        <div className={styles["quiz-item"]}>
+          <div className="quiz-name">Quiz 4</div>
+          <div className="quiz-accuracy">95%</div>
+        </div>
+
+        <h2>Completed Quizzes</h2>
+        <ul className={styles["subject-list"]}>
+          <li>
+            <a href="#">Quiz 1</a>
+          </li>
+          <li>
+            <a href="#">Quiz 2</a>
+          </li>
+          <li>
+            <a href="#">Quiz 3</a>
+          </li>
+          <li>
+            <a href="#">Quiz 4</a>
+          </li>
+        </ul>
+
+        <h2>Available Quizzes</h2>
+        <ul className={styles["subject-list"]}>
+          <li>
+            <a href="#">Quiz 5</a>
+          </li>
+          <li>
+            <a href="#">Quiz 6</a>
+          </li>
+          <li>
+            <a href="#">Quiz 7</a>
+          </li>
+          <li>
+            <a href="#">Quiz 8</a>
+          </li>
+          <li>
+            <a href="#">Quiz 9</a>
+          </li>
+          <li>
+            <a href="#">Quiz 10</a>
+          </li>
+          <li>
+            <a href="#">Quiz 11</a>
+          </li>
+          <li>
+            <a href="#">Quiz 12</a>
+          </li>
+          <li>
+            <a href="#">Quiz 13</a>
+          </li>
+          <li>
+            <a href="#">Quiz 14</a>
+          </li>
+          <li>
+            <a href="#">Quiz 15</a>
+          </li>
+        </ul>
+      </div>
+    </>

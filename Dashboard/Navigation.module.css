@@ -1,0 +1,40 @@
+.head ul{
+    list-style-type:None;
+    align-items: center;
+    margin: 0;
+    padding:0;
+    
+    
+}
+
+/* .head li{
+    
+    padding: 20px;
+    text-align: center;
+    float:right;
+    padding-top: 15px;
+    color: Black;
+
+
+}
+     */
+.head{
+    position: sticky;
+    top:0;
+    background-color: rgb(16, 94, 139);
+    height:50px;
+    align-items: center;
+}
+
+.head img{
+    width: 25px;
+    height: 25px;
+    padding: 0 10px;
+    
+    
+}
+
+.head li:hover{
+    color:black;
+    background-color: white;
+}

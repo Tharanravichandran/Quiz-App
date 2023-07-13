@@ -1,0 +1,245 @@
+.xbox {
+	background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 );
+	
+	background-repeat: no-repeat;
+
+	
+	min-height: 100vh;
+	/* text-align: center; */
+	align-items: center;
+  }
+  
+  .boxform {
+	margin: 0 auto;
+	justify-content: center;
+	width: 80%;
+	align-items: center;
+	/* contain: content; */
+	
+	
+	background: #FFFFFF;
+	border-radius: 10px;
+	overflow: hidden;
+	height: 91vb;
+	display: flex;
+	flex: 1 1 50%;
+	justify-content: space-between;
+	box-shadow: 0 0 20px 6px #090b6f85;
+	
+  }
+ 
+  /* .boxform div {
+	height: auto;
+  } */
+  .boxform .left {
+	/* HELLO WORLD*/
+	color: #ffffff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("https://i.pinimg.com/736x/5d/73/ea/5d73eaabb25e3805de1f8cdea7df4a42--tumblr-backgrounds-iphone-phone-wallpapers-iphone-wallaper-tumblr.jpg");
+	overflow: hidden;
+	height: 95vb;
+	/* `adding: 30px; */
+
+
+  }
+  .boxform .left .overlay {
+	/* padding: 30px; */
+	/* Hello world box  */
+	width: 100%;
+	height: 95vb;
+	background: #5961f9ad;
+	overflow: hidden;
+	box-sizing: border-box;
+  }
+  .boxform .left .overlay h1 {
+	font-size: 10vmax;
+	line-height: 1;
+	font-weight: 900;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	/* HELLO WORLD TEXT BOX  */
+  }
+  .boxform .left .overlay span p {
+	margin-top: 30px;
+	font-weight: 900;
+	/* background: #000000ad; */
+	/*WHERE LEARNING MEETS FUN BOX*/
+
+  }
+  .boxform .left .overlay span a {
+	background: #3b5998;
+	color: #FFFFFF;
+	margin-top: 10px;
+	padding: 14px 50px;
+	border-radius: 100px;
+	display: inline-block;
+	box-shadow: 0 3px 6px 1px #042d4657;
+  }
+  .boxform .left .overlay span a:last-child {
+	background: #3b5998;
+	margin-left: 30px;
+	/* WHERE LEARNING TEXT  box  */
+  }
+  .boxform .right {
+	padding: 50px;
+	
+	overflow: hidden;
+	/* background: #000000; */
+	/* LOGIN BOX  */
+
+  }
+  @media (max-width: 980px) {
+	.boxform .right {
+	  width: 100%;
+	  
+/* background: #000000; */
+	/* LOGIN BOX  */
+	}
+  }
+  .boxform .right h5 {
+	font-size: 6vmax;
+	line-height: 0;
+  }
+  .boxform .right p {
+	font-size: 14px;
+	color: #B0B3B9;
+  }
+  .boxform .inputs{
+	position: relative;
+	justify-content: space-between;
+  }
+
+  .boxform .right input {
+	width: 90%;
+	margin-bottom:30px;
+	padding: 10px;
+	font-size: 16px;
+	position: relative;
+	
+  }
+  .boxform .right:nth-child(1) input{
+	margin: 0;
+  }
+  .boxform  .right span{
+	position: absolute;
+	left:0;
+	padding: 10px;
+	transition: 0.5s;	
+	
+
+  }
+  .boxform .right input:valid ~span,
+  .boxform .right input:focus ~span{
+	color: white;
+	transform: translateX(10px)translateY(-20px);
+	padding: 5px;
+	background-color:black;
+	font-size: 0.75rem;
+
+  }
+
+  .boxform .right .rememberMe {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  .boxform .right .rememberMe input {
+	margin: 0;
+	margin-right: 7px;
+	width: auto;
+  }
+  .boxform .right button {
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 35px;
+	border-radius: 50px;
+	display:inline;
+	border: 0;
+	outline: 0;
+	box-shadow: 0px 4px 20px 0px #49c628a6;
+	background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+  }
+  .buttonWrapper{
+	/* flex-direction: row;
+	justify-content: center;
+	align-items: center; */
+
+	padding: 10px;
+	justify-content: center;
+
+  }
+  
+  label {
+	display: block;
+	position: relative;
+	margin-left: 30px;
+	/* background: #000000; */
+	/* REMEMBER ME BOX */
+  }
+  
+  label::before {
+	content: ' \f00c';
+	position: absolute;
+	font-family: FontAwesome;
+	background: transparent;
+	border: 3px solid #70F570;
+	border-radius: 4px;
+	color: transparent;
+	left: -30px;
+	transition: all 0.2s linear;
+
+	/* background: #000000; */
+	/* REM ME TICK BOX  */
+  }
+  
+  label:hover::before {
+	font-family: FontAwesome;
+	content: ' \f00c';
+	color: #fff;
+	cursor: pointer;
+	background: #70F570;
+  }
+  
+  label:hover::before .textCheckbox {
+	background: #70F570;
+  }
+  
+  label span.textCheckbox {
+	display: inline-block;
+	height: auto;
+	position: relative;
+	cursor:pointer;
+	transition: all 0.2s linear;
+  }
+  
+  label input[type="checkbox"] {
+	display: none;
+  }
+
+  /* .left{
+	height: fit-content;
+  } */
+
+
+
+  .fbox {
+	
+	max-width: 10px;
+	align-items: center;
+	margin: 0;
+
+  }
+
+  .fbox select{
+	padding: 10px;
+
+  }
+
+  .fbox option{
+	padding: 10px;
+  }
+  
+  .fbox option:focus{
+	transform: scale(1.2);
+  }

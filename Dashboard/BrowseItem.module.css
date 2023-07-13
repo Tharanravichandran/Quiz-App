@@ -1,0 +1,17 @@
+.browseItem{
+    display: inline-block;
+    width: 350px;
+    height: 390px;
+    text-align: center;
+    margin: 20px;
+    background-color: #EFD9D1;
+    
+}
+
+.browseItem img{
+    padding-top: 40px;
+    width: 150px;
+    height: 150px;
+}
+
+

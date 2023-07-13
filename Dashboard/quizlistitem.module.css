@@ -1,0 +1,29 @@
+.continueItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #418edac6;
+    border-radius: 10px;
+    text-align: left;
+    
+  }
+
+  
+  .continueItem h2 {
+    color: #3a3a3a;
+    font-size: 1rem;
+    text-align: left;
+    flex:auto;
+    margin: 0 1rem;
+   
+  }
+  /* .continueItem h3 {
+    color: #3a3a3a;
+    font-size: 1rem;
+    
+    margin: 0 1rem;
+    color: white;
+  } */
+ 

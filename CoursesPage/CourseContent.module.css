@@ -1,0 +1,29 @@
+.banner2 {
+    width: 100%;
+    height: 200px;
+    background-color: #333333;
+
+    /* text-align: center; */
+    
+}
+.content{
+    margin-left: 15%;
+
+}
+
+.content img{
+    width: 25%;
+    height: 30vh;
+    float:left; 
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; /* Added position relative */
+}
+
